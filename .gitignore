@@ -1,0 +1,10 @@
+# Mac related files and directories
+.DS_Store
+.sass-cache/
+
+# Node modules
+node_modules
+
+# Production files
+dist
+bundled

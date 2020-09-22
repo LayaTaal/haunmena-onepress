@@ -1,0 +1,37 @@
+---------------------------------
+*------BLUEHOST INFORMATION------*
+---------------------------------
+
+Password: Tw82>NQr[-w9m-
+WordPress Admin: haunmena
+		  Password: Haun14Mena
+
+---------------------------------
+*----------COLOR SCHEME----------*
+---------------------------------
+
+Color Scheme Original:
+
+Main:		#178f23 (green)
+Main-Tint:	#106318 (darker)
+			#2fdd40 (lighter)
+Seconary:	#17478f (blue)
+Tertiary:	#8f5f17 (burnt orange)
+
+Color Scheme New:
+
+Main:		#ff6c00 (orange)
+Main-Tint:	#b24c00 (darker)
+			#ff7b19 (lighter)
+Seconary:	#00a1b2 (dark aqua blue)
+Tertiary:	#00e6ff (aqua blue)
+
+
+---------------------------------
+*-----IMPORTANT THEME NOTES-----*
+---------------------------------
+
+Parent theme functions.php contains get_template_directory() call for dashboard templates. 
+In order to edit these in a child theme, they must be modified to get_stylesheet_directory().
+
+IF I UPDATE THIS WILL BE OVERWRITTEN AND MUST BE RECODED!!!

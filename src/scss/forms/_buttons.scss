@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------
+  Buttons
+--------------------------------------------------------------*/
+
+.btn {
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+}
+
+.btn-lg {
+  font-size: 17px;
+  font-size: 1.0625rem;
+}
+
+.btn-theme-primary {
+  background: #E9673E !important;
+  color: #FFFFFF !important;
+}
+
+.btn-theme-primary:hover {
+  color: #FFFFFF;
+}
+
+.btn-theme-primary-outline {
+  background-color: transparent;
+  background-image: none;
+  border-color: #03c4eb;
+  color: #03c4eb;
+}
+
+.btn-theme-primary-outline:hover {
+  color: #FFF;
+  background-color: #03c4eb;
+  border-color: #03c4eb;
+}
+
+.medium-button {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #445060;
+  border: 2px solid #b0d0f9;
+}
+
+.medium-button:hover {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #b0d0f9;
+  border: 2px solid #445060;
+
+}
+
+.medium-button h3 {
+  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1rem;
+  color: #b0d0f9;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.medium-button:hover h3 {
+  color: #445060;
+}
+
+.medium-button:hover a {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .medium-button {
+    margin-top: 0px;
+    display: none;
+  }
+}

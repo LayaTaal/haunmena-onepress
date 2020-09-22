@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------
+  Other Pages
+--------------------------------------------------------------*/
+
+/* Practice Areas: Sidebar
+------------------------------*/
+
+.practice-area-sidebar .fa-chevron-right {
+  color: #e9663e;
+  padding: 0 1em;
+}
+
+.practice-area-sidebar a {
+  color: #e9663e !important;
+}
+
+.practice-area-sidebar a:hover {
+  color: #b24c00 !important;
+  text-decoration: none !important;
+}
+
+/* Automobile Accidents
+------------------------------*/
+
+.jz_highlight {
+  background: #e9663e !important;
+  padding: 30px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  transition: all 100ms ease-out 0s;
+}
+
+/* Custom Posts
+------------------------------*/
+
+.filing-suit-pullquote {
+  margin: 0.5em 0 1em 1.5em;
+  padding-right: 0;
+  float: right;
+  width: 60%;
+  border-left: 5px solid #e9663e;
+}
+
+.rpwe-summary {
+  color: #ffffff !important;
+}
+
+/* Newsletters
+------------------------------*/
+
+.newsletter {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.newsletter-thumbnail {
+  width: 100%;
+  margin: 20px 0
+}
+
+.newsletter-content {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .newsletter-thumbnail {
+    width: 25%;
+    margin: 0;
+    margin-right: 20px;
+    border: 1px solid #000;
+  }
+
+  .newsletter-content {
+    width: 75%;
+  }
+}
+
+/* Lawsuit Landing Page
+------------------------------*/
+
+.lawsuit-landing__news-box {
+  background: #B2D1F7;
+  padding: 2em !important;
+  margin: 2em 0;
+}
+
+/* Lawsuit Intake Form
+------------------------------*/
+#secondary.sidebar-claim {
+  padding: 2em 1em;
+  border-left: 0 !important;
+  background: #e9e9e9 !important;
+  margin: 2em 0;
+}
+
+.sidebar-claim p {
+  font-size: 14px;
+}
+
+.sidebar-claim label {
+  color: #333333;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sidebar-claim input[type="text"],
+.sidebar-claim input[type="tel"],
+.sidebar-claim input[type="email"],
+.sidebar-claim textarea {
+  background: white !important;
+}
+
+.sidebar-claim input[type="tel"] {
+  width: 100%;
+}
+
+.sidebar-claim span.wpcf7-list-item {
+  display: block;
+  margin: 0 !important;
+}
+
+.sidebar-claim input[type="radio"] {
+  margin: 0 10px 0 0 !important;
+}
+.sidebar-claim input[type="submit"] {
+  width: 100% !important;
+  color: white !important;
+}

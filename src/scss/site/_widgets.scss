@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+  Widgets
+--------------------------------------------------------------*/
+.sidebar .widget {
+  margin-bottom: 40px;
+}
+
+.sidebar .widget .widget-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 13px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.sidebar .widget ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.sidebar .widget ul:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.sidebar .widget a {
+  color: #e9673e !important;
+  font-size: 14px;
+}
+
+.sidebar .widget a:hover {
+  color: #03c4eb;
+  text-decoration: underline;
+}
+
+.widget-area .widget_archive li {
+  width: 100% !important;
+}
