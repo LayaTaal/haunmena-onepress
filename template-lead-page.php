@@ -8,7 +8,7 @@
  * @package OnePress
  */
 
-get_header(); 
+get_header();
 
 // Contact Form 7 form id for shortcode
 $form_id = get_post_meta($post->ID, 'lead_form_id', true);
@@ -24,8 +24,6 @@ $shortcode = '[contact-form-7 id="' . $form_id . '" html_id="claim-form" html_cl
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 			</div>
 		</div>
-
-		<?php echo onepress_breadcrumb(); ?>
 
 		<div id="content-inside" class="container right-sidebar">
 			<div id="primary" class="content-area">
@@ -46,14 +44,14 @@ $shortcode = '[contact-form-7 id="' . $form_id . '" html_id="claim-form" html_cl
 
 				</main><!-- #main -->
 			</div><!-- #primary -->
-				
+
 			<div id="secondary" class="widget-area sidebar sidebar-claim" role="complementary">
 				<aside class="widget widget_text">
 					<h3>Submit your claim information</h3>
 					<?php echo do_shortcode( $shortcode ); ?>
 				</aside>
 			</div><!-- #secondary -->
-				
+
 		</div><!--#content-inside -->
 	</div><!-- #content -->
 

@@ -9,7 +9,7 @@
  *
  * @package OnePress
  */
- 
+
 // Information necessary to display the correct intake form
 $form_title = get_post_meta($post->ID, 'lead_form_title', true);
 $form_desc = get_post_meta($post->ID, 'lead_form_desc', true);
@@ -30,8 +30,6 @@ get_header(); ?>
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 			</div>
 		</div>
-
-		<?php echo onepress_breadcrumb(); ?>
 
 		<div id="content-inside" class="container right-sidebar">
 			<div id="primary" class="content-area">
