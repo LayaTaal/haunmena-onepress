@@ -33,6 +33,10 @@
 /* Section: Hero
 ------------------------------*/
 
+.hero-content-style1 p.hero-small-text {
+  font-size: 60px;
+}
+
 @media screen and (max-width: 576px) {
   section#hero {
     display: none !important;
