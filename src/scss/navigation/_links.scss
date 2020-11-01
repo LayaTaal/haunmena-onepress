@@ -2,6 +2,18 @@
   Links
 ------------------------------*/
 
+#nav-toggle span,
+#nav-toggle span::before,
+#nav-toggle span::after,
+#nav-toggle.nav-is-visible span::before,
+#nav-toggle.nav-is-visible span::after {
+  background: var(--color-light-blue) !important;
+}
+
+#nav-toggle.nav-is-visible span {
+  background: var(--color-dark-blue) !important;
+}
+
 .onepress-menu li {
   white-space: normal !important;
 
