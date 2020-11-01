@@ -2,10 +2,53 @@
   Links
 ------------------------------*/
 
-.onepress-menu ul {
-  min-width: 20em !important;
+#nav-toggle span,
+#nav-toggle span::before,
+#nav-toggle span::after,
+#nav-toggle.nav-is-visible span::before,
+#nav-toggle.nav-is-visible span::after {
+  background: var(--color-light-blue) !important;
+}
+
+#nav-toggle.nav-is-visible span {
+  background: var(--color-dark-blue) !important;
 }
 
 .onepress-menu li {
   white-space: normal !important;
+
+  a {
+    color: var(--color-light-blue) !important;
+
+    &:hover,
+    &:focus {
+      color: var(--color-white) !important;
+    }
+  }
+}
+
+.onepress-menu li.onepress-current-item {
+  > a {
+    color: var(--color-white) !important;
+
+    &:hover,
+    &:focus {
+      color: var(--color-light-blue) !important;
+    }
+  }
+}
+
+.onepress-menu ul {
+  min-width: 20em !important;
+
+  li {
+    a {
+      color: var(--color-dark-blue) !important;
+
+      &:hover,
+      &:focus {
+        color: var(--color-light-blue) !important;
+      }
+    }
+  }
 }
