@@ -14,7 +14,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -22,7 +22,7 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-KX8648L');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<!-- Facebook Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s)
@@ -33,16 +33,16 @@
 	t.src=v;s=b.getElementsByTagName(e)[0];
 	s.parentNode.insertBefore(t,s)}(window,document,'script',
 	'https://connect.facebook.net/en_US/fbevents.js');
-	 fbq('init', '598847940629112'); 
+	 fbq('init', '598847940629112');
 	fbq('track', 'PageView');
 	</script>
 	<noscript>
-	 <img height="1" width="1" 
+	 <img height="1" width="1"
 	src="https://www.facebook.com/tr?id=598847940629112&ev=PageView
 	&noscript=1"/>
 	</noscript>
 	<!-- End Facebook Pixel Code -->
-	
+
 	<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,300|Roboto:400,500,700,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -66,3 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      */
     do_action( 'onepress_site_start' );
     ?>
+
+	<?php if ( ! is_page( 'astroworld-festival-tragedy' ) ) { ?>
+		<?php get_template_part( 'template-parts/notification-bar' ); ?>
+	<?php } ?>

@@ -1,0 +1,39 @@
+/*----------------------------
+  Notification Bar
+-----------------------------*/
+.hm-notification-bar {
+	background-color: var(--color-white);
+}
+
+.hm-notification-bar__container {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: center;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	@media (min-width: 768px) {
+		max-width: 900px;
+		flex-flow: row nowrap;
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
+	.hm-notification-bar__description {
+		color: var(--color-primary-dark);
+		flex: 1 0 100%;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-weight: 800;
+
+		@media (min-width: 768px) {
+			flex: 0 1 66.6666%;
+			padding-bottom: 0;
+			padding-right: 24px;
+			font-size: 20px;
+		}
+	}
+}
